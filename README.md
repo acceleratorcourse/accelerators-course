@@ -1,2 +1,2 @@
 # accelerators-course
-Labs for itmo accelerator sourse 2024
+Labs for itmo accelerator course 2024
