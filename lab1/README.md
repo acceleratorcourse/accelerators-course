@@ -43,6 +43,8 @@
       ./daxpy 100000 10000 1
       ./daxpy 10000 100000 1
 ```
+*    change data type to float and run all tests again
+*    try to break branch prediction
   
 
 
