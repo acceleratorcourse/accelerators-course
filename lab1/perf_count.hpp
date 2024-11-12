@@ -1,3 +1,6 @@
+#ifndef PERFCOUNTER_H
+#define PERFCOUNTER_H
+
 #include <linux/perf_event.h> /* Definition of PERF_* constants */
 #include <stdio.h>
 #include <stdlib.h>
@@ -7,6 +10,7 @@
 #include <unistd.h>
 #include <inttypes.h>
 #include <functional>
+
 
 // CPU has only 4 counter registers available for developer in linux
 //
@@ -105,3 +109,6 @@ auto run_with_counters(Function &&F, Args &&...ArgList)
     close(fd[i]);
   }
 }
+
+#endif
+
