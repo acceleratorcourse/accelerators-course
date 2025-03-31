@@ -66,4 +66,4 @@ find . -name *.hpp | xargs clang-format-10 -style=file -i
 find . -name *.h | xargs clang-format-10 -style=file -i 
 ```
 
-Go to [Task doc](task/Task.md)
+Go to [Task doc](https://github.com/acceleratorcourse/accelerators-course/blob/main/lab2/task/TASK.md)
