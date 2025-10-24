@@ -1,10 +1,40 @@
 #include <cstdlib>
 #include <inttypes.h>
+#include <stdio.h>
+#include <vector>
 
-void daxpy(size_t n, size_t stride, double a, double*x, double*y) {
+/*
+template <typename T>
+void daxpy(size_t n, size_t stride, T a, T *x, T *y) {
     for(size_t i = 0; i < n; i+=stride) {
         y[i] = a * x[i] + y[i];
     }
+}*/
+
+template <typename T>
+void daxpy(size_t n, size_t stride, T a, T *x, T *y) {
+    int res = 0;
+    for(size_t i = 0; i < n; i+=stride) {
+       res += a * x[i];
+    }
+    x[0] = res;
+}
+
+
+template <typename T> 
+void run_daxpy(size_t n, size_t stride, size_t repeats) {
+   
+   std::vector<T> x,y;
+   //size_t total_size = stride * n;
+   size_t total_size = n;
+   x.reserve(total_size);
+   y.reserve(total_size);
+   printf("input size in bytes : %" PRIu64 "\n", x.capacity()*sizeof(T));
+
+   T a = 3;
+   for (int i = 0; i < repeats; i++) {
+       daxpy(n, stride, a, x.data(), y.data());
+   }
 }
 
 /*
@@ -26,7 +56,6 @@ void daxpy(size_t n, size_t stride, double a, double*x, double*y) {
  *   compile with -O2 flag to prevent unrolling
 */
 
-
 int main(int argc, char** argv) {
   size_t n       = std::atoll(argv[1]);
   size_t repeats = std::atoll(argv[2]);
@@ -34,23 +63,10 @@ int main(int argc, char** argv) {
 
   printf("n : %" PRIu64 "\n", n);
   printf("repeats : %" PRIu64 "\n", repeats);
-  printf("stride : %" PRIu64 "\n", stride);
+  printf("stride  : %" PRIu64 "\n", stride);
 
-  double* x = (double*)malloc(n * sizeof(double));
-  double* y = (double*)malloc(n * sizeof(double));
-  double  a = 1.5;
+  run_daxpy<char>(n, stride, repeats);
 
-  for(int i = 0; i < repeats; i++) {
-      daxpy(n,stride, a, x, y);
-  }
-
-  // prevent removing daxpy by compiler
-  //
-  printf("%f", x[0]);
-
-  free(x);
-  free(y);
-    
   return 0;
 }
 
