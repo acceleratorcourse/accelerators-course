@@ -1,0 +1,238 @@
+Start testing: Nov 07 19:55 MSK
+----------------------------------------------------------
+1/8 Testing: GEMMTestSet/GEMMTestFloat.GEMMTestFw/40-byte object <00-01 00-00 00-00 00-00 00-01 00-00 00-00 00-00 00-01 00-00 00-00 00-00 00-00 80-3F 00-00 00-00 00-01 00-00 00-00 00-00>
+1/8 Test: GEMMTestSet/GEMMTestFloat.GEMMTestFw/40-byte object <00-01 00-00 00-00 00-00 00-01 00-00 00-00 00-00 00-01 00-00 00-00 00-00 00-00 80-3F 00-00 00-00 00-01 00-00 00-00 00-00>
+Command: "/home/kikimych/kikimych_backup/workspace/itmo/lab3/NVIDIA/build/gtest/test_matmul" "--gtest_filter=GEMMTestSet/GEMMTestFloat.GEMMTestFw/0" "--gtest_also_run_disabled_tests"
+Directory: /home/kikimych/kikimych_backup/workspace/itmo/lab3/NVIDIA/build/
+"GEMMTestSet/GEMMTestFloat.GEMMTestFw/40-byte object <00-01 00-00 00-00 00-00 00-01 00-00 00-00 00-00 00-01 00-00 00-00 00-00 00-00 80-3F 00-00 00-00 00-01 00-00 00-00 00-00>" start time: Nov 07 19:55 MSK
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = GEMMTestSet/GEMMTestFloat.GEMMTestFw/0
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GEMMTestSet/GEMMTestFloat
+[ RUN      ] GEMMTestSet/GEMMTestFloat.GEMMTestFw/0
+PRNG seed: 2166865411
+[       OK ] GEMMTestSet/GEMMTestFloat.GEMMTestFw/0 (280 ms)
+[----------] 1 test from GEMMTestSet/GEMMTestFloat (280 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (280 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.41 sec
+----------------------------------------------------------
+Test Passed.
+"GEMMTestSet/GEMMTestFloat.GEMMTestFw/40-byte object <00-01 00-00 00-00 00-00 00-01 00-00 00-00 00-00 00-01 00-00 00-00 00-00 00-00 80-3F 00-00 00-00 00-01 00-00 00-00 00-00>" end time: Nov 07 19:55 MSK
+"GEMMTestSet/GEMMTestFloat.GEMMTestFw/40-byte object <00-01 00-00 00-00 00-00 00-01 00-00 00-00 00-00 00-01 00-00 00-00 00-00 00-00 80-3F 00-00 00-00 00-01 00-00 00-00 00-00>" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/8 Testing: GEMMTestSet/GEMMTestFloat.GEMMTestFw/40-byte object <00-01 00-00 00-00 00-00 00-01 00-00 00-00 00-00 00-01 00-00 00-00 00-00 00-00 80-3F 00-00 00-00 20-00 00-00 00-00 00-00>
+2/8 Test: GEMMTestSet/GEMMTestFloat.GEMMTestFw/40-byte object <00-01 00-00 00-00 00-00 00-01 00-00 00-00 00-00 00-01 00-00 00-00 00-00 00-00 80-3F 00-00 00-00 20-00 00-00 00-00 00-00>
+Command: "/home/kikimych/kikimych_backup/workspace/itmo/lab3/NVIDIA/build/gtest/test_matmul" "--gtest_filter=GEMMTestSet/GEMMTestFloat.GEMMTestFw/1" "--gtest_also_run_disabled_tests"
+Directory: /home/kikimych/kikimych_backup/workspace/itmo/lab3/NVIDIA/build/
+"GEMMTestSet/GEMMTestFloat.GEMMTestFw/40-byte object <00-01 00-00 00-00 00-00 00-01 00-00 00-00 00-00 00-01 00-00 00-00 00-00 00-00 80-3F 00-00 00-00 20-00 00-00 00-00 00-00>" start time: Nov 07 19:55 MSK
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = GEMMTestSet/GEMMTestFloat.GEMMTestFw/1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GEMMTestSet/GEMMTestFloat
+[ RUN      ] GEMMTestSet/GEMMTestFloat.GEMMTestFw/1
+PRNG seed: 2565553537
+[       OK ] GEMMTestSet/GEMMTestFloat.GEMMTestFw/1 (244 ms)
+[----------] 1 test from GEMMTestSet/GEMMTestFloat (244 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (244 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.38 sec
+----------------------------------------------------------
+Test Passed.
+"GEMMTestSet/GEMMTestFloat.GEMMTestFw/40-byte object <00-01 00-00 00-00 00-00 00-01 00-00 00-00 00-00 00-01 00-00 00-00 00-00 00-00 80-3F 00-00 00-00 20-00 00-00 00-00 00-00>" end time: Nov 07 19:55 MSK
+"GEMMTestSet/GEMMTestFloat.GEMMTestFw/40-byte object <00-01 00-00 00-00 00-00 00-01 00-00 00-00 00-00 00-01 00-00 00-00 00-00 00-00 80-3F 00-00 00-00 20-00 00-00 00-00 00-00>" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/8 Testing: GEMMTestSet/GEMMTestFloat.GEMMTestFw/40-byte object <00-02 00-00 00-00 00-00 00-02 00-00 00-00 00-00 00-02 00-00 00-00 00-00 00-00 80-3F 00-00 00-00 00-01 00-00 00-00 00-00>
+3/8 Test: GEMMTestSet/GEMMTestFloat.GEMMTestFw/40-byte object <00-02 00-00 00-00 00-00 00-02 00-00 00-00 00-00 00-02 00-00 00-00 00-00 00-00 80-3F 00-00 00-00 00-01 00-00 00-00 00-00>
+Command: "/home/kikimych/kikimych_backup/workspace/itmo/lab3/NVIDIA/build/gtest/test_matmul" "--gtest_filter=GEMMTestSet/GEMMTestFloat.GEMMTestFw/2" "--gtest_also_run_disabled_tests"
+Directory: /home/kikimych/kikimych_backup/workspace/itmo/lab3/NVIDIA/build/
+"GEMMTestSet/GEMMTestFloat.GEMMTestFw/40-byte object <00-02 00-00 00-00 00-00 00-02 00-00 00-00 00-00 00-02 00-00 00-00 00-00 00-00 80-3F 00-00 00-00 00-01 00-00 00-00 00-00>" start time: Nov 07 19:55 MSK
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = GEMMTestSet/GEMMTestFloat.GEMMTestFw/2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GEMMTestSet/GEMMTestFloat
+[ RUN      ] GEMMTestSet/GEMMTestFloat.GEMMTestFw/2
+PRNG seed: 1594126947
+[       OK ] GEMMTestSet/GEMMTestFloat.GEMMTestFw/2 (313 ms)
+[----------] 1 test from GEMMTestSet/GEMMTestFloat (313 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (313 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.45 sec
+----------------------------------------------------------
+Test Passed.
+"GEMMTestSet/GEMMTestFloat.GEMMTestFw/40-byte object <00-02 00-00 00-00 00-00 00-02 00-00 00-00 00-00 00-02 00-00 00-00 00-00 00-00 80-3F 00-00 00-00 00-01 00-00 00-00 00-00>" end time: Nov 07 19:55 MSK
+"GEMMTestSet/GEMMTestFloat.GEMMTestFw/40-byte object <00-02 00-00 00-00 00-00 00-02 00-00 00-00 00-00 00-02 00-00 00-00 00-00 00-00 80-3F 00-00 00-00 00-01 00-00 00-00 00-00>" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/8 Testing: GEMMTestSet/GEMMTestFloat.GEMMTestFw/40-byte object <00-02 00-00 00-00 00-00 00-02 00-00 00-00 00-00 00-02 00-00 00-00 00-00 00-00 80-3F 00-00 00-00 20-00 00-00 00-00 00-00>
+4/8 Test: GEMMTestSet/GEMMTestFloat.GEMMTestFw/40-byte object <00-02 00-00 00-00 00-00 00-02 00-00 00-00 00-00 00-02 00-00 00-00 00-00 00-00 80-3F 00-00 00-00 20-00 00-00 00-00 00-00>
+Command: "/home/kikimych/kikimych_backup/workspace/itmo/lab3/NVIDIA/build/gtest/test_matmul" "--gtest_filter=GEMMTestSet/GEMMTestFloat.GEMMTestFw/3" "--gtest_also_run_disabled_tests"
+Directory: /home/kikimych/kikimych_backup/workspace/itmo/lab3/NVIDIA/build/
+"GEMMTestSet/GEMMTestFloat.GEMMTestFw/40-byte object <00-02 00-00 00-00 00-00 00-02 00-00 00-00 00-00 00-02 00-00 00-00 00-00 00-00 80-3F 00-00 00-00 20-00 00-00 00-00 00-00>" start time: Nov 07 19:55 MSK
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = GEMMTestSet/GEMMTestFloat.GEMMTestFw/3
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GEMMTestSet/GEMMTestFloat
+[ RUN      ] GEMMTestSet/GEMMTestFloat.GEMMTestFw/3
+PRNG seed: 3388292360
+[       OK ] GEMMTestSet/GEMMTestFloat.GEMMTestFw/3 (298 ms)
+[----------] 1 test from GEMMTestSet/GEMMTestFloat (298 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (298 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.44 sec
+----------------------------------------------------------
+Test Passed.
+"GEMMTestSet/GEMMTestFloat.GEMMTestFw/40-byte object <00-02 00-00 00-00 00-00 00-02 00-00 00-00 00-00 00-02 00-00 00-00 00-00 00-00 80-3F 00-00 00-00 20-00 00-00 00-00 00-00>" end time: Nov 07 19:55 MSK
+"GEMMTestSet/GEMMTestFloat.GEMMTestFw/40-byte object <00-02 00-00 00-00 00-00 00-02 00-00 00-00 00-00 00-02 00-00 00-00 00-00 00-00 80-3F 00-00 00-00 20-00 00-00 00-00 00-00>" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/8 Testing: GEMMTestSet/GEMMTestFloat.GEMMTestFw/40-byte object <00-04 00-00 00-00 00-00 00-04 00-00 00-00 00-00 00-04 00-00 00-00 00-00 00-00 80-3F 00-00 00-00 00-01 00-00 00-00 00-00>
+5/8 Test: GEMMTestSet/GEMMTestFloat.GEMMTestFw/40-byte object <00-04 00-00 00-00 00-00 00-04 00-00 00-00 00-00 00-04 00-00 00-00 00-00 00-00 80-3F 00-00 00-00 00-01 00-00 00-00 00-00>
+Command: "/home/kikimych/kikimych_backup/workspace/itmo/lab3/NVIDIA/build/gtest/test_matmul" "--gtest_filter=GEMMTestSet/GEMMTestFloat.GEMMTestFw/4" "--gtest_also_run_disabled_tests"
+Directory: /home/kikimych/kikimych_backup/workspace/itmo/lab3/NVIDIA/build/
+"GEMMTestSet/GEMMTestFloat.GEMMTestFw/40-byte object <00-04 00-00 00-00 00-00 00-04 00-00 00-00 00-00 00-04 00-00 00-00 00-00 00-00 80-3F 00-00 00-00 00-01 00-00 00-00 00-00>" start time: Nov 07 19:55 MSK
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = GEMMTestSet/GEMMTestFloat.GEMMTestFw/4
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GEMMTestSet/GEMMTestFloat
+[ RUN      ] GEMMTestSet/GEMMTestFloat.GEMMTestFw/4
+PRNG seed: 1337774661
+[       OK ] GEMMTestSet/GEMMTestFloat.GEMMTestFw/4 (627 ms)
+[----------] 1 test from GEMMTestSet/GEMMTestFloat (627 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (627 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.77 sec
+----------------------------------------------------------
+Test Passed.
+"GEMMTestSet/GEMMTestFloat.GEMMTestFw/40-byte object <00-04 00-00 00-00 00-00 00-04 00-00 00-00 00-00 00-04 00-00 00-00 00-00 00-00 80-3F 00-00 00-00 00-01 00-00 00-00 00-00>" end time: Nov 07 19:55 MSK
+"GEMMTestSet/GEMMTestFloat.GEMMTestFw/40-byte object <00-04 00-00 00-00 00-00 00-04 00-00 00-00 00-00 00-04 00-00 00-00 00-00 00-00 80-3F 00-00 00-00 00-01 00-00 00-00 00-00>" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/8 Testing: GEMMTestSet/GEMMTestFloat.GEMMTestFw/40-byte object <00-04 00-00 00-00 00-00 00-04 00-00 00-00 00-00 00-04 00-00 00-00 00-00 00-00 80-3F 00-00 00-00 20-00 00-00 00-00 00-00>
+6/8 Test: GEMMTestSet/GEMMTestFloat.GEMMTestFw/40-byte object <00-04 00-00 00-00 00-00 00-04 00-00 00-00 00-00 00-04 00-00 00-00 00-00 00-00 80-3F 00-00 00-00 20-00 00-00 00-00 00-00>
+Command: "/home/kikimych/kikimych_backup/workspace/itmo/lab3/NVIDIA/build/gtest/test_matmul" "--gtest_filter=GEMMTestSet/GEMMTestFloat.GEMMTestFw/5" "--gtest_also_run_disabled_tests"
+Directory: /home/kikimych/kikimych_backup/workspace/itmo/lab3/NVIDIA/build/
+"GEMMTestSet/GEMMTestFloat.GEMMTestFw/40-byte object <00-04 00-00 00-00 00-00 00-04 00-00 00-00 00-00 00-04 00-00 00-00 00-00 00-00 80-3F 00-00 00-00 20-00 00-00 00-00 00-00>" start time: Nov 07 19:55 MSK
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = GEMMTestSet/GEMMTestFloat.GEMMTestFw/5
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GEMMTestSet/GEMMTestFloat
+[ RUN      ] GEMMTestSet/GEMMTestFloat.GEMMTestFw/5
+PRNG seed: 63289926
+[       OK ] GEMMTestSet/GEMMTestFloat.GEMMTestFw/5 (618 ms)
+[----------] 1 test from GEMMTestSet/GEMMTestFloat (618 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (618 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.76 sec
+----------------------------------------------------------
+Test Passed.
+"GEMMTestSet/GEMMTestFloat.GEMMTestFw/40-byte object <00-04 00-00 00-00 00-00 00-04 00-00 00-00 00-00 00-04 00-00 00-00 00-00 00-00 80-3F 00-00 00-00 20-00 00-00 00-00 00-00>" end time: Nov 07 19:55 MSK
+"GEMMTestSet/GEMMTestFloat.GEMMTestFw/40-byte object <00-04 00-00 00-00 00-00 00-04 00-00 00-00 00-00 00-04 00-00 00-00 00-00 00-00 80-3F 00-00 00-00 20-00 00-00 00-00 00-00>" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/8 Testing: GEMMTestSet/GEMMTestFloat.GEMMTestFw/40-byte object <00-08 00-00 00-00 00-00 00-08 00-00 00-00 00-00 00-08 00-00 00-00 00-00 00-00 80-3F 00-00 00-00 40-00 00-00 00-00 00-00>
+7/8 Test: GEMMTestSet/GEMMTestFloat.GEMMTestFw/40-byte object <00-08 00-00 00-00 00-00 00-08 00-00 00-00 00-00 00-08 00-00 00-00 00-00 00-00 80-3F 00-00 00-00 40-00 00-00 00-00 00-00>
+Command: "/home/kikimych/kikimych_backup/workspace/itmo/lab3/NVIDIA/build/gtest/test_matmul" "--gtest_filter=GEMMTestSet/GEMMTestFloat.GEMMTestFw/6" "--gtest_also_run_disabled_tests"
+Directory: /home/kikimych/kikimych_backup/workspace/itmo/lab3/NVIDIA/build/
+"GEMMTestSet/GEMMTestFloat.GEMMTestFw/40-byte object <00-08 00-00 00-00 00-00 00-08 00-00 00-00 00-00 00-08 00-00 00-00 00-00 00-00 80-3F 00-00 00-00 40-00 00-00 00-00 00-00>" start time: Nov 07 19:55 MSK
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = GEMMTestSet/GEMMTestFloat.GEMMTestFw/6
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GEMMTestSet/GEMMTestFloat
+[ RUN      ] GEMMTestSet/GEMMTestFloat.GEMMTestFw/6
+PRNG seed: 3269405474
+[       OK ] GEMMTestSet/GEMMTestFloat.GEMMTestFw/6 (1854 ms)
+[----------] 1 test from GEMMTestSet/GEMMTestFloat (1854 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1854 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   2.00 sec
+----------------------------------------------------------
+Test Passed.
+"GEMMTestSet/GEMMTestFloat.GEMMTestFw/40-byte object <00-08 00-00 00-00 00-00 00-08 00-00 00-00 00-00 00-08 00-00 00-00 00-00 00-00 80-3F 00-00 00-00 40-00 00-00 00-00 00-00>" end time: Nov 07 19:55 MSK
+"GEMMTestSet/GEMMTestFloat.GEMMTestFw/40-byte object <00-08 00-00 00-00 00-00 00-08 00-00 00-00 00-00 00-08 00-00 00-00 00-00 00-00 80-3F 00-00 00-00 40-00 00-00 00-00 00-00>" time elapsed: 00:00:01
+----------------------------------------------------------
+
+8/8 Testing: test_matmul
+8/8 Test: test_matmul
+Command: "/home/kikimych/kikimych_backup/workspace/itmo/lab3/NVIDIA/build/gtest/test_matmul"
+Directory: /home/kikimych/kikimych_backup/workspace/itmo/lab3/NVIDIA/build/gtest
+"test_matmul" start time: Nov 07 19:55 MSK
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+[==========] Running 7 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 7 tests from GEMMTestSet/GEMMTestFloat
+[ RUN      ] GEMMTestSet/GEMMTestFloat.GEMMTestFw/0
+PRNG seed: 3006922224
+[       OK ] GEMMTestSet/GEMMTestFloat.GEMMTestFw/0 (225 ms)
+[ RUN      ] GEMMTestSet/GEMMTestFloat.GEMMTestFw/1
+[       OK ] GEMMTestSet/GEMMTestFloat.GEMMTestFw/1 (25 ms)
+[ RUN      ] GEMMTestSet/GEMMTestFloat.GEMMTestFw/2
+[       OK ] GEMMTestSet/GEMMTestFloat.GEMMTestFw/2 (103 ms)
+[ RUN      ] GEMMTestSet/GEMMTestFloat.GEMMTestFw/3
+[       OK ] GEMMTestSet/GEMMTestFloat.GEMMTestFw/3 (104 ms)
+[ RUN      ] GEMMTestSet/GEMMTestFloat.GEMMTestFw/4
+[       OK ] GEMMTestSet/GEMMTestFloat.GEMMTestFw/4 (422 ms)
+[ RUN      ] GEMMTestSet/GEMMTestFloat.GEMMTestFw/5
+[       OK ] GEMMTestSet/GEMMTestFloat.GEMMTestFw/5 (461 ms)
+[ RUN      ] GEMMTestSet/GEMMTestFloat.GEMMTestFw/6
+[       OK ] GEMMTestSet/GEMMTestFloat.GEMMTestFw/6 (1645 ms)
+[----------] 7 tests from GEMMTestSet/GEMMTestFloat (2987 ms total)
+
+[----------] Global test environment tear-down
+[==========] 7 tests from 1 test suite ran. (2987 ms total)
+[  PASSED  ] 7 tests.
+<end of output>
+Test time =   3.14 sec
+----------------------------------------------------------
+Test Passed.
+"test_matmul" end time: Nov 07 19:56 MSK
+"test_matmul" time elapsed: 00:00:03
+----------------------------------------------------------
+
+End testing: Nov 07 19:56 MSK
