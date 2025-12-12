@@ -11,9 +11,9 @@ function(add_gtest TEST_NAME TEST_CPP)
   add_executable(${TEST_NAME} ${TEST_CPP})
   set_property(TARGET ${TEST_NAME} PROPERTY CUDA_ARCHITECTURES "90")
 
-  if (CMAKE_CXX_COMPILER_ID STREQUAL "clang++")
-    target_compile_options(${TEST_NAME} PRIVATE -Wno-global-constructors -Wno-undef --cuda-gpu-arch=sm_90 --cuda-path=/usr/local/cuda-12.9)
-  elseif (CMAKE_CXX_COMPILER_ID STREQUAL "nvcc")
+  if (CMAKE_CXX_COMPILER_ID STREQUAL "Clang")
+    target_compile_options(${TEST_NAME} PRIVATE -Wno-global-constructors -Wno-undef --cuda-gpu-arch=sm_90 --cuda-path=/usr/local/cuda-12.9 -O0 --save-temps)
+  elseif (CMAKE_CXX_COMPILER_ID STREQUAL "NVIDIA")
     target_compile_options(${TEST_NAME} PRIVATE -Wno-global-constructors -Wno-undef -g3 -O0 --save-temps)
   endif()
 	  
