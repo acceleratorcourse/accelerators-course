@@ -50,6 +50,10 @@ First, create a build directory:
 mkdir build; cd build;
 ```
 
+Next, set environment variables for MKL library
+```shell
+source /opt/intel/oneapi/setvars.sh
+```
 Next, configure CMake
 
 ```shell
